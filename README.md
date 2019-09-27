@@ -2,8 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
 
-## Development server
+## Api server
+For the first time please navigate to directory 'server' of the project and run 'npm install'
+Run `node server.js` for a api server. Navigate to `http://localhost:3000/`. The api will automatically reload if you change any of the source files.
 
+
+## Development server
+For the first time please navigate to root directory of the project and run 'npm install'
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
