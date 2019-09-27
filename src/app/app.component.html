@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<h2>Here are some links to help you start: </h2>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h3>User</h3>
+        <div class="row" (click)="onItemClick(user)" *ngFor="let user of users">
+          {{user.name}}
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <h3>User Details</h3>
+        <div class="details">
+          <div>{{selectedUser.name}}</div>
+          <div>{{selectedUser.username}}</div>
+          <div>{{selectedUser.email}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
