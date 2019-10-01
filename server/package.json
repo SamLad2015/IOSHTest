@@ -19,6 +19,7 @@
     "server": "ng serve node_modules/.bin/ts-node-dev server/server.js"
   },
   "devDependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "joi": "^14.3.1"
   }
 }
