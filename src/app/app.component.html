@@ -17,9 +17,17 @@
       <div class="col-sm-6">
         <h3>User Details</h3>
         <div class="details">
-          <div>{{selectedUser.name}}</div>
-          <div>{{selectedUser.username}}</div>
-          <div>{{selectedUser.email}}</div>
+          <div>Name: {{selectedUser.name}}</div>
+          <div>User Name: {{selectedUser.username}}</div>
+          <div>Email: {{selectedUser.email}}</div>
+          <div>
+            <div>Address:</div>
+            <div>{{selectedUser.address.suite}}</div>
+            <div>{{selectedUser.address.street}}</div>
+            <div>{{selectedUser.address.city}}</div>
+            <div>{{selectedUser.address.zipcode}}</div>
+          </div>
+          <div>Company: {{selectedUser.company.name}}</div>
         </div>
       </div>
     </div>
