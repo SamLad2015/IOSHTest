@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.user.selected {
+  color: purple;
+  font-weight: bold;
+}
+.user:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .col-sm-6 {
   width: 50%;
   display: inline-block;
