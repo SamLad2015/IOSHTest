@@ -24,7 +24,7 @@ app.get('/api/users', (req, res) => {
 app.get('/api/users/:id', (req, res) => {
   const { error } = Joi.validate(req.params, userValidationSchema);
   if (error) {
-    res.send(error);
+    res.status(400).send(error);
   } else {
     const apiUrl = 'https://jsonplaceholder.typicode.com/users?id=' + req.params.id;
     api_helper.make_API_call(apiUrl)
